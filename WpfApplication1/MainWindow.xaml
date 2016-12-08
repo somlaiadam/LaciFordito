@@ -23,6 +23,5 @@
                 <ImageBrush Stretch="Uniform" ImageSource="https://github.com/somlaiadam/Lacifordito/blob/master/Lac%20-%20HUN.jpeg?raw=true"/>
             </Button.Background>
         </Button>
-        <Button Content="On GitHub" HorizontalAlignment="Left" Margin="23,378,0,0" VerticalAlignment="Top" Width="75" Background="#FF4B4B4B" BorderBrush="White" Foreground="White"/>
     </Grid>
 </Window>
