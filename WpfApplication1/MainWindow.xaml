@@ -5,24 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="LaciFordító ©2016 v.2.2.1 Beta" Height="444.672" Width="740.881" ShowInTaskbar="True" SizeToContent="Manual" WindowStartupLocation="CenterScreen" FontFamily="Segoe UI Semibold" ResizeMode="NoResize" Icon="https://raw.githubusercontent.com/somlaiadam/Laci_Fordito/K%C3%A9pek/favicon.ico">
+        Title="LaciFordító ©2016 v.2.2.2 Beta" Height="444.672" Width="740.881" ShowInTaskbar="True" SizeToContent="Manual" WindowStartupLocation="CenterScreen" FontFamily="Segoe UI Semibold" ResizeMode="NoResize" Icon="https://raw.githubusercontent.com/somlaiadam/Laci_Fordito/K%C3%A9pek/favicon.ico">
     <Grid Background="#FF4B4B4B">
         <Label x:Name="udvozloszoveg" Content="Üdvözöljük a Laci fordító programban!" HorizontalAlignment="Center" Margin="0,20,10,0" VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Semilight" FontSize="22"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="35" Margin="10,96,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="715" FontSize="24" Foreground="Black" BorderBrush="White" FontFamily="Segoe UI Semilight"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="35" Margin="10,171,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="715" FontSize="24" Foreground="Black" BorderBrush="White" FontFamily="Segoe UI Semilight"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Írja be ide a szöveget:" Foreground="White" FontFamily="Segoe UI Semilight"/>
         <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="10,150,0,0" TextWrapping="Wrap" Text="Itt jelenik meg a fordítás:" VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Semilight"/>
-        <Button x:Name="button" Content="" HorizontalAlignment="Center" Margin="146,246,379,0" VerticalAlignment="Top" Width="215" Height="106" Click="button_Click" FontFamily="Segoe UI Light" FontSize="16" BorderBrush="White">
+        <Button x:Name="button" Content="" HorizontalAlignment="Center" Margin="146,246,379,0" VerticalAlignment="Top" Width="215" Height="106" Click="button_Click" FontFamily="Segoe UI Light" FontSize="16" BorderBrush="White" Foreground="White">
             <Button.Background>
                 <ImageBrush Stretch="Uniform" ImageSource="https://github.com/somlaiadam/Laci_Fordito/blob/K%C3%A9pek/HUn-Lac.jpeg?raw=true"/>
             </Button.Background>
         </Button>
-        <Label x:Name="label" Content="Copyright 2016. 10.B második csoport | All rights reserved | Windows exclusive | Version: 2.2.1 Beta" HorizontalAlignment="Right" Margin="0,373,10,0" VerticalAlignment="Top" Width="598" Foreground="White" FontFamily="Segoe UI Semilight" FontSize="14" Height="33"/>
+        <Label x:Name="label" Content="Copyright 2016. 10.B második csoport | All rights reserved | Windows exclusive | Version: 2.2.2 Beta" HorizontalAlignment="Right" Margin="0,373,28,0" VerticalAlignment="Top" Width="598" Foreground="White" FontFamily="Segoe UI Semilight" FontSize="14" Height="33"/>
         <Button x:Name="button1" Content="" HorizontalAlignment="Center" Margin="378,246,147,0" VerticalAlignment="Top" Width="215" Height="106" Click="button1_Click" FontFamily="Segoe UI Semilight" FontSize="16" BorderBrush="White">
             <Button.Background>
                 <ImageBrush Stretch="Uniform" ImageSource="https://github.com/somlaiadam/Laci_Fordito/blob/K%C3%A9pek/Lac%20-%20HUN.jpeg?raw=true"/>
             </Button.Background>
         </Button>
-        <Button Content="On GitHub" HorizontalAlignment="Left" Margin="23,378,0,0" VerticalAlignment="Top" Width="75" Background="#FF4B4B4B" BorderBrush="White" Foreground="White"/>
+        <Button Content="On GitHub" HorizontalAlignment="Left" Margin="20,378,0,0" VerticalAlignment="Top" Width="75" Background="#FF4B4B4B" BorderBrush="#FF838383" Foreground="#FF838383"/>
+        <Label Content="HUN -&gt; Laci" HorizontalAlignment="Left" Margin="210,220,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Laci -&gt; HUN" HorizontalAlignment="Left" Margin="450,220,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="29" Margin="10,373,0,0" VerticalAlignment="Top" Width="710" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
     </Grid>
 </Window>
