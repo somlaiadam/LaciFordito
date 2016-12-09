@@ -41,5 +41,19 @@ namespace WpfApplication1
         {
             System.Diagnostics.Process.Start("https://github.com/somlaiadam/Laci_Fordito/tree/Hivatalos");
         }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            string tb11 = textBox.Text.Replace("r", "l");
+            string tb12 = tb11.Replace("R", "L");
+            textBox1.Text = tb12;
+        }
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+            string tb21 = textBox.Text.Replace("l", "r");
+            string tb22 = tb21.Replace("L", "R");
+            textBox1.Text = tb22;
+        }
     }
 }

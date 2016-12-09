@@ -26,3 +26,4 @@ C:\Users\somla\Documents\GitHub\LaciFordito\WpfApplication1\obj\Debug\WpfApplica
 C:\Users\somla\Documents\GitHub\LaciFordito\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
 C:\Users\somla\Documents\GitHub\LaciFordito\WpfApplication1\obj\Debug\WpfApplication1.exe
 C:\Users\somla\Documents\GitHub\LaciFordito\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\somla\Documents\GitHub\Lacifordito\WpfApplication1\obj\Debug\MainWindow - White.g.cs
