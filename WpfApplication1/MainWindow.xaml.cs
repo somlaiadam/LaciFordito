@@ -36,5 +36,10 @@ namespace WpfApplication1
             string c = textBox.Text.Replace("l", "r");
             textBox1.Text = c.Replace("L", "R");
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/somlaiadam/Laci_Fordito/tree/Hivatalos");
+        }
     }
 }
